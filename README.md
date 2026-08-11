@@ -2,7 +2,7 @@ This project implements an Artificial Neural Network (ANN) to efficiently calibr
 
 Project Files & Structure:
 
-MC sims.py: Generates a synthetic training dataset of options priced under the rBergomi model, utilizing the turbocharged and random grids methods (refer to the associated papers for mathematical details).
+MC sims.py: Generates a synthetic training dataset of options priced under the rBergomi model, utilizing the turbocharged and random grids methods (refer to the associated papers for mathematical details). Note: The pricing logic is a modified version of the original implementation by the authors of the Turbocharged method, which can be found in their official repository (https://github.com/rmcrkd/rough_bergomi).
 
 Train.py: Configures and trains the ANN, which is built with a deep learning architecture of 4 hidden layers and 64 neurons per layer.
 
